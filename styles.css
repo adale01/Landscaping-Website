@@ -8,7 +8,7 @@ html, body {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: slategray;
+    background-color: lightgray;
 }
 
 header {
@@ -18,11 +18,12 @@ header {
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 1;
 }
 
 .navbar_upper {
     background-color: #ABC763;
-    padding: 5px;
+    height: 30px;
 }
 
 .navbar_upper > ul {
@@ -41,25 +42,26 @@ header {
 }
 
 .navbar_lower {
-    display: flex;
+    height: 150px;
+    text-align: right;
+    position: relative;
 }
 
 .navbar_logo {
-    width: 400px;
-    height: 150px;
+    height: 100%;
     overflow: hidden;
+    position: absolute;
 }
 
 .navbar_logo img {
     width: 600px;
     height: 400px;
-    margin: -125px 0 0 -100px;
+    margin: -125px -150px 0px -100px;
 }
 
 .navbar_lower > ul {
     display: inline;
-    font-size: 20px;
-    flex-grow: 1;
+    font-size: 2em;
     padding-right: 100px;
     text-align: right;
     line-height: 150px;
@@ -78,8 +80,91 @@ header {
 }
 
 .contact_button {
-    padding: 10px;
+    padding: 15px 20px 15px 20px;
     background-color: #ABC763;
     border-radius: 50px;
     color: white;
+}
+
+.welcome {
+    width: 100%;
+}
+
+.welcome_image {
+    margin-top: 180px;
+    position: relative;
+    text-align: center;
+}
+
+.welcome_image img {
+    width: 100%;
+}
+
+.welcome_intro {
+    color: rgb(64, 99, 9);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome_title {
+    font-size: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 80vw;
+    border-style: outset;
+    border-width: 10px;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.welcome_message {
+    font-size: 50px;
+    font-style: italic;
+    width: 60vw;
+    background-color: rgba(255,255,255,0.5);
+    border-style: outset;
+    border-width: 5px;
+}
+
+.about_us {
+    width: 100%;
+}
+
+.about_us_container {
+    margin: 50px 100px 50px 100px;
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.landscapers img {
+    padding: 50px;
+}
+
+.about_us_body {
+    text-align: center;
+}
+
+.about_us_description h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3em;
+    padding-top: 10px;
+}
+
+.get_in_touch {
+    margin-top: 100px;
+}
+
+.get_in_touch_button {
+    color: black;
+    padding: 10px;
+    font-weight: bold;
+    border-style: solid;
+    line-height: 50px;
+    text-decoration: none;
 }
