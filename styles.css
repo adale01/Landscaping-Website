@@ -18,7 +18,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1;
+    z-index: 2;
 }
 
 .navbar_upper {
@@ -130,16 +130,46 @@ header {
     border-width: 5px;
 }
 
+.dcm_icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.dcm_icons div {
+    margin-top: -100px;
+    z-index: 1;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    font-size: 50px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+.dcm_icons div img {
+    padding-top: 50px;
+}
+
+.design, .maintain {
+    background-color: #ABC763;
+    color: white;
+}
+
+.construct {
+    background-color: white;
+    color: #ABC763;
+}
+
 .about_us {
     width: 100%;
 }
 
 .about_us_container {
-    margin: 50px 100px 50px 100px;
+    margin: 200px 100px 200px 100px;
     display: flex;
     justify-content: center;
-    border-style: solid;
-    border-width: 2px;
+    border-style: groove;
+    border-width: 5px;
+    border-color: #ABC763;
 }
 
 .landscapers img {
@@ -167,4 +197,27 @@ header {
     border-style: solid;
     line-height: 50px;
     text-decoration: none;
+}
+
+.services_title {
+    position: relative;
+}
+
+.services_title img {
+    width: 100%; 
+}
+
+.services_title p {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 200px;
+}
+
+.services_list {
+    display: flex;
+    justify-content: center;
 }
