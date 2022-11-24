@@ -98,6 +98,7 @@ header {
 
 .welcome_image img {
     width: 100%;
+    display: block;
 }
 
 .welcome_intro {
@@ -174,6 +175,7 @@ header {
 
 .landscapers img {
     padding: 50px;
+    display: block;
 }
 
 .about_us_body {
@@ -199,25 +201,88 @@ header {
     text-decoration: none;
 }
 
-.services_title {
-    position: relative;
-}
-
-.services_title img {
-    width: 100%; 
+#services_container {
+    height: 600px;
+    background-image: url(Images/bridge.jpg);
+    background-position: top center;
+    background-attachment: scroll;
+    background-size: cover;
+    width: 100%;
+    display: flex;  
+    justify-content: center;
 }
 
 .services_title p {
+    background-color: #ABC763;
     color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    line-height: 100px;
     text-align: center;
-    font-size: 200px;
+    font-size: 100px;
+    padding: 0px 20px 10px 20px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.services_description {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 20px;
 }
 
 .services_list {
     display: flex;
     justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.services_list img {
+    display: block;
+}
+
+.left_services, .middle_services, .right_services {
+    margin: 20px;
+    position: relative;
+}
+
+.left_services p {
+    color: white;
+    background-color: #ABC763;
+    position: absolute;
+    width: 150px;
+    bottom: 0;
+    padding: 10px;
+    font-size: 30px;
+    border-top-right-radius: 30px;
+}
+
+.middle_services p {
+    color: white;
+    background-color: #ABC763;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.right_services p {
+    color: white;
+    background-color: #ABC763;
+    position: absolute;
+    width: 150px;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+    padding: 10px 30px 10px 10px;
+    font-size: 30px;
+    border-top-left-radius: 30px;
 }
