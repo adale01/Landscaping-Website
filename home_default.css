@@ -1,0 +1,398 @@
+.welcome {
+    width: 100%;
+	overflow:hidden;
+}
+
+.welcome_image {
+    position: relative;
+    text-align: center;
+	height:800px;
+	min-width:1920px;
+	overflow:hidden;
+}
+
+.welcome_image img {
+    width:100%;
+	height:auto;
+    display: block;
+}
+
+.welcome_intro {
+    color: rgb(64, 99, 9);
+    position: absolute;
+	top:190px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome_title {
+    font-size: 100px;
+    font-family: 'Hangout', Tahoma, Geneva, Verdana, sans-serif;
+    width: 80vw;
+}
+
+.welcome_message {
+    font-size: 40px;
+    width: 60vw;
+	text-shadow: 2px 2px 8px #000;
+	color:#fff;
+	margin-top:20px;
+}
+
+.dcm_icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.dcm_icons div {
+    margin-top: -340px;
+    z-index: 1;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    font-size: 50px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+.dcm_icons div img {
+    padding-top: 50px;
+}
+
+.design, .maintain {
+    background-color: #ABC763;
+    color: white;
+}
+
+.construct {
+    background-color: white;
+    color: #ABC763;
+}
+
+.about_us {
+    width: 100%;
+	padding-top:40px;
+	
+}
+
+.about_us_container {
+    display: flex;
+    justify-content: center;
+	background-color:#ffffff;
+	padding-left:20px;
+	padding-right:20px;
+}
+
+.landscapers img {
+    padding: 50px;
+    display: block;
+}
+
+.about_us_body {
+    text-align: center;
+}
+
+.about_us_description {
+	margin-top:20px;
+	text-align:left;
+}
+
+.about_us_btn {
+   margin: 75px 0 75px 0;
+}
+
+#services_container {
+    height: 300px;
+    background-image: url(/resources/images/home/bridge.jpg);
+    background-position: top center;
+    background-attachment: scroll;
+    background-size: fill;
+    width: 100%;
+	display: flex;  
+    justify-content: center;
+	flex-wrap: wrap;
+	position: relative;
+}
+
+.services_description {
+	color: white;
+	padding-top: 150px;
+	position: absolute;
+    text-align: center;
+    font-size: 30px;
+	text-shadow: 2px 2px 4px #000000;
+	max-width: 50%;
+}
+
+.services-list {
+	margin-top: 40px;
+}
+
+.top-services, .bottom-services {
+	margin-bottom: 80px;
+	display:flex;
+	justify-content: center;
+    align-content: center;
+	flex-wrap: wrap;
+	margin-right:auto;
+	margin-left:auto;
+	
+	max-width:1624px;
+}
+
+.services-image {
+	width: 300px;
+	height: 300px;
+    position: relative;
+	overflow: hidden;
+	margin: 20px;
+}
+
+div.services-image:nth-of-type(1), div.services-image:nth-of-type(2), div.services-image:nth-of-type(3) {
+	
+}
+
+.services-image img {
+    height: 100%;
+}
+
+.service-header {
+	color: white;
+	background-color: #ABC763;
+	position: absolute;
+	width: 100%;
+	font-size: 24px;
+	bottom: 0;
+	left: 0;
+}
+
+.service-header p {
+	margin: 10px;
+}
+
+div.services-image:hover > div.service-header {
+	background-color: white;
+	color: black;
+}
+
+.our-work-section-1, .our-work-section-2 {
+	display: flex;
+	height: 250px;
+}
+
+.our-work-section-2 {
+	margin-bottom: 80px;
+}
+
+.our-work-title {
+	margin: 30px 0px 0px 150px;
+	line-height: 60px;
+}
+
+.our-work-image img {
+	min-height: 100%;
+	min-width: 100%;
+	flex-shrink: 0;
+}
+
+.our-work-image {
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+div.our-work-section-1 div.our-work-image:nth-of-type(1) {
+	display: block;
+	justify-content: normal;
+	align-items: normal;
+}
+
+div.our-work-section-1 div.our-work-image:nth-of-type(1) {
+	width: 40%;
+	background-color: #ABC763;
+	color: white;
+}
+
+div.our-work-section-1 div.our-work-image:nth-of-type(2) {
+	width: 25%;
+}
+
+div.our-work-section-1 div.our-work-image:nth-of-type(3) {
+	width: 35%;
+}
+
+div.our-work-section-2 div.our-work-image:nth-of-type(1) {
+	width: 45%;
+}
+
+div.our-work-section-2 div.our-work-image:nth-of-type(2) {
+	width: 25%;
+}
+
+div.our-work-section-2 div.our-work-image:nth-of-type(3) {
+	width: 25%;
+}
+
+div.our-work-section-2 div.our-work-image:nth-of-type(4) {
+	width: 25%;
+}
+
+div.our-work-description {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	visibility: hidden;
+	text-align: center;
+}
+
+div.our-work-image:hover img{
+	opacity: 0.3;
+}
+
+div.our-work-image:hover div.our-work-description {
+	visibility: visible;
+}
+
+.testimonials_container {
+}
+
+.testimonial-box {
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 100px;
+    width: 300px;
+	margin: 20px 50px 20px 50px;
+	color:#000;
+	float:left;
+	height:120px;
+	overflow:hidden;
+	position: relative;
+}
+
+.testimonial-box-inner{
+	margin:10px;
+}
+
+.testimonial-box img{
+	width:100px;
+	float: left;
+	padding: 0 10px 10px 0;
+}
+
+.testimonial_title {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 600px;
+}
+
+.testimonial_title p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 70px;
+}
+
+.testimonial p {
+    font-size: 20px;
+}
+
+.names {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+
+	font-weight: bold;
+}
+
+.testimonial_btn {
+	position: relative;
+	padding: 50px 0 50px 0;
+	text-align: center;
+}
+
+.contact_container {
+    background-color: #ABC763;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.contact_details {
+    text-align: left;
+    width: 40%;
+    border-right: lightgray 3px solid;
+	padding-left: 318px;
+}
+
+.contact_details h2 {
+    font-size: 40px;
+}
+
+.contact_details p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.contact_details img {
+    background-color: white;
+}
+
+.contact_form {
+    width: 60%;
+}
+
+.contact_form form {
+    padding: 0 200px;
+}
+
+.contact_form label {
+    display: block;
+    padding: 10px 0;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.contact_form input, textarea {
+	box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+}
+
+#contact_submit {
+    background-color: rgb(64, 99, 9);
+    color: white;
+    border: none;
+    width: auto;
+    margin: 30px 0;
+    padding: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#contact_submit:hover {
+    background-color: rgb(109, 167, 17);
+}
+
+div.outer-container.about-us{
+	background-color:#ffffff;
+}
+
+div.outer-container.testimonials{
+	background-color:#ffffff;
+	background-image: url(/resources/images/home/garden_path.jpg);
+    background-position: top center;
+    background-size: cover;
+	position: relative;
+}

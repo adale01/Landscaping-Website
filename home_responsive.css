@@ -1,0 +1,189 @@
+@media screen  and (max-width:1624px){
+	
+	.welcome_image img{
+		height:auto
+	}
+	
+	.welcome_intro {
+		left:25%;
+		transform: translate(-16%, 0);
+	}
+	
+	.welcome_title {
+		width:auto;
+		font-size:65px;
+	}
+	
+	.welcome_message {
+		width: auto;
+		margin-top:10px;
+		
+	}
+	
+	.contact_container{
+		display:none;
+	}
+	
+	.contact_details{
+		float:none;
+		width:100%;
+		padding-left:20px;
+		padding-right:20px;
+	}
+	
+	.contact_form{
+		float:none;
+		width:100%;
+		padding-left:20px;
+		padding-right:20px;
+	}
+	
+	
+	.testimonial-box{
+		float:none;
+		width:100%;
+		
+	}
+	
+	.services_description{
+		padding-top:75px;
+		max-width:80%;
+		
+	}
+	
+	.top-services .services_image:nth-of-type(2){
+		float:none;
+	}
+	
+	.our-work-title{
+		margin-left:20px;
+		margin-top:20px;
+	}
+}
+
+@media screen  and (max-width:944px){
+	
+	
+	.welcome_image{
+		height:600px;
+	}
+	
+	.welcome_intro {
+		left:10%;
+		transform: translate(-6%, 0);
+		top:160px;
+	}
+	
+	.welcome_title {
+		font-size:40px;
+	}
+	
+	.welcome_message {
+		font-size:28px;
+		margin-top:10px;
+	}
+	
+	
+	
+	.dcm_icons div {
+		font-size:24px;
+		height: 200px;
+		margin-top:-240px;
+		padding-bottom:20px;
+		
+	}
+	
+	.testimonial-box{
+		margin:20px;
+		width: auto;
+	}
+	
+	.services_description{
+		padding-top:80px;
+		font-size:30px;
+		max-width:100%;
+		margin-right:20px;
+		margin-left:20px;
+	}
+	
+	.services-list {
+		margin-top: 0px;
+	}
+	
+	.services-image {
+		width: 100%;
+		height: 40%;
+	}
+	
+	.services-image img{
+		height:auto;
+		width:100%;
+	}
+	
+	.service-header{
+		font-size:20px;
+	}
+	
+	.top-services{
+		margin-bottom:20px;
+	}
+
+	.our-work-section-1, .our-work-section-2{
+		display:block;
+		height:auto;
+	}
+	
+	.our-work-section-2{
+		margin-bottom:40px;
+	}
+	
+	.our-work-image{
+		width:100%;
+		display:block;
+		height:250px;
+	}
+	
+	.our-work-title{
+		margin-left:0px;
+		margin-top:20px;
+		text-align:center;
+	}
+	
+	div.our-work-section-1 div.our-work-image:nth-of-type(1), div.our-work-section-2 div.our-work-image:nth-of-type(1){
+		width:auto;
+	}
+	
+	div.our-work-section-1 div.our-work-image:nth-of-type(2), div.our-work-section-2 div.our-work-image:nth-of-type(2){
+		width:auto;
+	}
+	
+	div.our-work-section-1 div.our-work-image:nth-of-type(3), div.our-work-section-2 div.our-work-image:nth-of-type(3){
+		width:auto;
+	}
+	
+	div.our-work-section-2 div.our-work-image:nth-of-type(4){
+		width:auto;
+	}
+	
+	.about_us_btn{
+		margin:40px 0px 50px 0px;
+	}
+}
+
+@media screen  and (max-width:415px){
+	
+	.dcm_icons div {
+		height: 180px;
+		margin-top:-220px;
+	}
+	
+	.dcm_icons div img {
+    padding-top: 40px;
+	}
+	
+	.services_description p {
+		font-size: 28px;
+		padding-top: 20px;
+	}
+
+}
